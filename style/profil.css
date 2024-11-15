@@ -1,0 +1,222 @@
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+/* Specific style for iphone 14 */
+@media screen and (max-device-width: 844px){
+
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 5px solid var(--tertiary-color); 
+        border-radius: 10px;
+        margin-top: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 90%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .input { 
+        border-radius: 5px;
+        background-color: white;
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        padding-top: 0.3em;
+        width: 80%;
+        height: 2em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button { 
+        border-radius: 10px;
+        background-color: var(--tertiary-color);
+        margin: 2em auto 2em auto;
+        padding: auto;
+        width: 45%;
+        height: 3em;
+        border: black 2px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_2 { 
+        border-radius: 10px;
+        background-color: red;
+        margin: 2em auto 2em auto;
+        padding: auto;
+        width: 85%;
+        height: 4em;
+        border: black 2px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_2:hover, .button:hover{
+        opacity: 70%;
+    }
+
+    label {
+        margin-left: 2.2em;
+        margin-bottom: 0.8em;
+        padding-top: 1em;
+        font-weight: bold;
+    }
+}
+
+
+/* Specific style for ipad */
+@media screen and (min-width: 845px) and (max-width: 1919px) {
+   
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 8px solid var(--tertiary-color); 
+        border-radius: 10px;
+        margin-top: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em 0 1em 0;
+        width: 50%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .input { 
+        border-radius: 5px;
+        background-color: white;
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        padding-top: 0.3em;
+        width: 60%;
+        height: 2em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button { 
+        border-radius: 10px;
+        background-color: var(--tertiary-color);
+        margin:2em auto 2em auto;
+        padding: auto;
+        width: 25%;
+        height: 4em;
+        border: black 2px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_2 { 
+        border-radius: 10px;
+        background-color: red;
+        margin:3em auto 2em auto;
+        padding: auto;
+        width: 30%;
+        height: 5em;
+        border: black 2px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_2:hover, .button:hover{
+        opacity: 70%;
+    }
+
+    label {
+        margin-left: 7.5em;
+        margin-bottom: 0.8em;
+        padding-top: 2em;
+        font-weight: bold;
+    }
+}
+
+/* Specific style for desktop */
+@media screen and (min-width: 1920px) {
+   
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 12px solid var(--tertiary-color); 
+        border-radius: 10px;
+        margin-top: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em 0 1em 0;
+        width: 40%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .input { 
+        border-radius: 5px;
+        background-color: white;
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        padding-top: 0.3em;
+        width: 60%;
+        height: 2em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button { 
+        border-radius: 10px;
+        background-color: var(--tertiary-color);
+        margin:3em auto 2em auto;
+        padding: auto;
+        width: 25%;
+        height: 4em;
+        border: black 3px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_2 { 
+        border-radius: 10px;
+        background-color: red;
+        margin:3em auto 2em auto;
+        padding: auto;
+        width: 30%;
+        height: 5em;
+        border: black 3px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_2:hover, .button:hover{
+        opacity: 70%;
+    }
+
+    label {
+        margin-left: 9em;
+        margin-bottom: 0.8em;
+        padding-top: 2em;
+        font-weight: bold;
+    }
+}

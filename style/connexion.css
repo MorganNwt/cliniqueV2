@@ -1,0 +1,222 @@
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Specific style for iphone 14 */
+@media screen and (max-device-width: 844px){
+
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 5px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin-top: 4em;
+        margin-left: 1em;
+        margin-bottom: 10em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 90%;
+        height: 20em;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .input { 
+        border-radius: 7px;
+        background-color: white;
+        margin-top: 1em;
+        margin-left: 2em;
+        padding-left: 0.5em;
+        width: 80%;
+        height: 2em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button { 
+        border-radius: 10px;
+        background-color: var(--secondary-color);
+        margin-top: 2em;
+        margin-left: 6em;
+        padding: auto;
+        width: 45%;
+        height: 3em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button:hover{
+        opacity: 70%;
+    }
+
+
+    label {
+        margin-left: 2.2em;
+        padding-top: 1.5em;
+        font-weight: bold;
+    }
+
+    .registration_link {
+        margin-top: 1em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .registration_link:hover {
+        opacity: 50%;
+    }
+    
+}
+
+
+/* Specific style for ipad */
+@media screen and (min-width: 845px) and (max-width: 1919px) {
+
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 8px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin-top: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2em;
+        padding-bottom: 3em;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .input { 
+        border-radius: 7px;
+        background-color: white;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5em;
+        width: 60%;
+        height: 2em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button { 
+        border-radius: 10px;
+        background-color: var(--secondary-color);
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+        width: 25%;
+        height: 3em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button:hover{
+        opacity: 70%;
+    }
+
+
+    label {
+        margin-left: 10em;
+        padding-top: 1.5em;
+        font-weight: bold;
+    }
+
+    .registration_link {
+        margin-top: 2em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .registration_link:hover {
+        opacity: 50%;
+    }
+
+}
+
+/* Specific style for desktop */
+@media screen and (min-width: 1920px) {
+   
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 12px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin: 4em auto 10em auto;
+        padding-top: 1em;
+        padding-bottom: 3em;
+        width: 35%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .input { 
+        border-radius: 7px;
+        background-color: white;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5em;
+        width: 50%;
+        height: 2em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button { 
+        border-radius: 10px;
+        background-color: var(--secondary-color);
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+        width: 25%;
+        height: 3em;
+        border: black 1px solid;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button:hover{
+        opacity: 70%;
+    }
+
+    label {
+        margin-left: 10em;
+        padding-top: 1.5em;
+        font-weight: bold;
+    }
+
+    .registration_link {
+        margin-top: 2em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .registration_link:hover {
+        opacity: 50%;
+    }
+}

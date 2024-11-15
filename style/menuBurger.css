@@ -1,0 +1,199 @@
+
+/* Specific style for iphone 12 and more */
+@media screen and (max-width: 844px){
+
+    /* SideNav */
+    .sideNav{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -80em;
+        background-color: #A9A9A9;
+        padding-top: 60px;
+        transition: right 1s ease;
+    }
+
+    /* sideNav menu links */
+    .sideNav a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5em;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sideNav a:hover{
+        color: #FD3F92;
+    }
+
+    .sideNav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* active class */
+    .sideNav.active{
+        right: 0;
+    }
+
+    /* close btn */
+    .sideNav .close{
+        position: absolute;
+        top: 0;
+        right: 0.5em;
+        font-size: 40px;
+    }
+
+    /* Burger icon*/
+    .burger_icon span{
+        display: block;
+        width: 36px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        margin-right: 6px;
+    }
+    
+    .burger_icon:hover{
+        opacity: 50%;
+    }
+}
+
+/* Specific style for ipad pro and more */
+@media screen and (min-width: 845px) and (max-width: 1919px) {
+
+    /* SideNav */
+    .sideNav{
+        height: auto;
+        width: 45%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -80em;
+        background-color: #A9A9A9;
+        padding-top: 60px;
+        transition: right 1s ease;
+    }
+
+    /* sideNav menu links */
+    .sideNav a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.8em;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sideNav a:hover{
+        color: #FD3F92;
+    }
+
+    .sideNav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* active class */
+    .sideNav.active{
+        right: 0;
+    }
+
+    /* close btn */
+    .sideNav .close{
+        position: absolute;
+        top: 0;
+        right: 0.5em;
+        font-size: 80px;
+    }
+
+    /* Icône burger */
+    .burger_icon span{
+        display: block;
+        width: 60px;
+        height: 10px;
+        background-color: black;
+        margin: 6px 0;
+        margin-right: 3em;
+    }
+
+    .burger_icon:hover{
+        opacity: 50%;
+    }
+   
+}
+
+/* Specific style for desktop */
+@media screen and (min-width: 1920px) {
+   
+    /* SideNav */
+    .sideNav{
+        height: auto;
+        width: 15%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -80em;
+        background-color: #A9A9A9;
+        padding-top: 60px;
+        transition: right 1s ease;
+    }
+
+    /* sideNav menu links */
+    .sideNav a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sideNav a:hover{
+        color: #FD3F92;
+    }
+
+    .sideNav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* active class */
+    .sideNav.active{
+        right: 0;
+    }
+
+    /* close btn */
+    .sideNav .close{
+        position: absolute;
+        top: 0;
+        right: 0.5em;
+        font-size: 50px;
+    }
+
+    /* Icône burger */
+    .burger_icon span{
+        display: block;
+        width: 48px;
+        height: 8px;
+        background-color: black;
+        margin: 6px 3em;
+    }
+
+    .burger_icon:hover{
+        opacity: 50%;
+    }
+
+}

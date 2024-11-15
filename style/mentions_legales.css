@@ -1,0 +1,99 @@
+li{
+    margin-top: 1em;
+}
+
+@media screen and (max-device-width: 844px){
+
+    .background_img{
+        background-image: url('/pics/services.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+        height: 14em; 
+        width: 100%; 
+        margin-top: 0.1em;
+    }
+
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 5px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:0.3em;
+        width: 95%;
+        height: auto;
+    }
+
+    .container_2 { 
+        background: var(--quaternary-color);
+        border: 5px solid var(--tertiary-color); 
+        border-radius: 10px;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:0.3em;
+        width: 95%;
+        height: auto;
+    }
+}
+
+/* Specific style for ipad */
+@media screen and (min-width: 845px) and (max-width: 1919px) {
+   
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 5px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+        padding: 0.5em;
+    }
+
+    .container_2 { 
+        background: var(--quaternary-color);
+        border: 5px solid var(--tertiary-color); 
+        border-radius: 10px;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:0.3em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+/* Specific style for desktop */
+@media screen and (min-width: 1920px) {
+   
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 12px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: auto;
+        padding: 4em;
+    }
+
+    .container_2 { 
+        background: var(--quaternary-color);
+        border: 12px solid var(--tertiary-color); 
+        border-radius: 10px;
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: auto;
+        padding: 4em;
+    }
+}
