@@ -27,13 +27,13 @@
     </header>
 
     <main>
-        <h1>CONDITIONS GENERALES DE FONCTIONNEMENT</h1>
+        <h2>CONDITIONS GENERALES DE FONCTIONNEMENT</h2>
 
         <section class="container_1">
-            <h1>
+            <h2>
                 CONDITIONS GENERALES DE FONCTIONNEMENT DE « CLINIQUE VETERINAIRE « LES CEDRES » 
                 32 RUE PIERRE LATECOERE 26000 VALENCE
-             </h1>
+             </h2>
             <p>
                 Les CGF sont à la disposition de la clientèle en salle d’attente., elles peuvent 
                 vous être remises sous un format papier à la clinique.

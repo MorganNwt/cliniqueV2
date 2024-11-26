@@ -35,7 +35,7 @@
 
         <form action="#" method="POST" class="container_1">
             <?php if (isset($messageId)): ?>
-                <input type="hidden" name="message_id" value="<?php echo htmlspecialchars($messageId); ?>">
+                <input type="hidden" name="message_id" value="<?php echo htmlspecialchars_decode($messageId); ?>">
             <?php endif; ?>
 
             <div class="star-rating">
@@ -55,9 +55,9 @@
                 <label for="star1" title="1 étoile">★</label>
             </div>
 
-            <input type="text" name="titre" id="titre" class="input" placeholder="Entrez un titre" required value="<?php echo isset($message['titre']) ? htmlspecialchars($message['titre']) : ''; ?>">
+            <input type="text" name="titre" id="titre" class="input" placeholder="Entrez un titre" required value="<?php echo isset($message['titre']) ? htmlspecialchars_decode($message['titre']) : ''; ?>">
 
-            <textarea type="text" rows="20" name="content" id="content" class="textarea_input" placeholder="Votre message..." required><?php echo isset($message['content']) ? htmlspecialchars($message['content']) : ''; ?></textarea>
+            <textarea type="text" rows="20" name="content" id="content" class="textarea_input" placeholder="Votre message..." required><?php echo isset($message['content']) ? htmlspecialchars_decode($message['content']) : ''; ?></textarea>
 
             <button type="submit" class="input_2"><?php echo isset($messageId) ? 'Modifier' : 'Poster'; ?></button>
         </form>

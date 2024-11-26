@@ -34,6 +34,6 @@
         }
     } else {
         echo "Action non autorisée.";
-        header('Location: profile.php');
+        header('Location: profil.php');
         exit;
     }

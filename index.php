@@ -116,8 +116,8 @@
         
          <!-- Google Reviews Integration -->
         <section class="container_4">
-            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-            <div class="elfsight-app-c54f2a23-e648-4d1b-b560-70e28c4a64f0" data-elfsight-app-lazy></div>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-c54f2a23-e648-4d1b-b560-70e28c4a64f0" data-elfsight-app-lazy></div>
         </section>
     </main>
 

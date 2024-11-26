@@ -69,7 +69,7 @@
             $stmt->bindParam(':id', $id, PDO::PARAM_INT);
             $stmt->execute();
             $existing_member = $stmt->fetch(PDO::FETCH_ASSOC);
-            $photo = $existing_member['photo']; // On conserve l'ancienne photo
+            $photo = $existing_member['photo']; // On keeping the old photo
         }
 
         // Member Update Request

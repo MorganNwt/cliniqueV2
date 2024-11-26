@@ -27,7 +27,7 @@
     </header>
 
     <main>
-        <h1>Politique de cookies</h1>
+        <h1>POLITIQUE DE COOKIES</h1>
 
         <section class="container_1">
             <p>

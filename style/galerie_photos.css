@@ -30,6 +30,7 @@
         width: 100%;
         object-fit: cover;
         transition: .2s linear;
+        display: block;
     }
     
     .container .pics_container .pics:hover img{

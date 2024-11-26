@@ -48,7 +48,7 @@
         } else {
             // Inserting a new profile
             $requete_infos_users = 'INSERT INTO infos_users (nom, prenom, date_naissance, telephone, rue, cp, ville, users_id) VALUES (:nom, :prenom, :date_naissance, :telephone, :rue, :cp, :ville, :users_id)';
-            $stmt_infos_users = $pdo->prepare($requete_infos_users);
+            $stmt_infos_users = $pdo->prepare(query: $requete_infos_users);
         }
 
         // Binding parameters

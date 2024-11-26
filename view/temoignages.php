@@ -36,15 +36,15 @@
         <?php foreach ($messages as $message): ?>
             <section class="container">
                 <div class="header">
-                    <span class="pseudo"><?php echo htmlspecialchars($message['pseudo']); ?></span>
+                    <span class="pseudo"><?php echo htmlspecialchars_decode($message['pseudo']); ?></span>
                     <div class="star_rating">
                         <?php for ($i = 1; $i <= 5; $i++): ?>
                             <span><?php echo $i <= $message['rating'] ? '★' : ''; ?></span>
                         <?php endfor; ?>
                     </div>
                 </div>
-                <h3 class="title"><?php echo htmlspecialchars($message['titre']); ?></h3>
-                <p class="content"><?php echo htmlspecialchars($message['content']); ?></p>
+                <h3 class="title"><?php echo htmlspecialchars_decode($message['titre']); ?></h3>
+                <p class="content"><?php echo htmlspecialchars_decode($message['content']); ?></p>
                 
                 <!-- Utiliser updated_at si elle existe, sinon utiliser created_at -->
                 <span>

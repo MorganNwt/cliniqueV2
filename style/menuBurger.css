@@ -10,7 +10,7 @@
         z-index: 1;
         top: 0;
         right: -80em;
-        background-color: #A9A9A9;
+        background-color: #ffffff;
         padding-top: 60px;
         transition: right 1s ease;
     }
@@ -76,7 +76,8 @@
         z-index: 1;
         top: 0;
         right: -80em;
-        background-color: #A9A9A9;
+        background-color: #ffffff;
+        border: 8px solid var(--secondary-color);
         padding-top: 60px;
         transition: right 1s ease;
     }
@@ -143,7 +144,8 @@
         z-index: 1;
         top: 0;
         right: -80em;
-        background-color: #A9A9A9;
+        background-color: #ffffff;
+        border: 8px solid var(--secondary-color);
         padding-top: 60px;
         transition: right 1s ease;
     }

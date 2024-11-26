@@ -11,13 +11,11 @@
         background: var(--quaternary-color);
         border: 5px solid var(--secondary-color); 
         border-radius: 10px;
-        margin-top: 4em;
-        margin-left: 1em;
-        margin-bottom: 10em;
+        margin: 4em auto;
         padding-top: 1em;
         padding-bottom: 1em;
         width: 90%;
-        height: 20em;
+        height: auto;
         display: flex;
         flex-direction: column;
        
@@ -26,8 +24,7 @@
     .input { 
         border-radius: 7px;
         background-color: white;
-        margin-top: 1em;
-        margin-left: 2em;
+        margin: 1em auto;
         padding-left: 0.5em;
         width: 80%;
         height: 2em;
@@ -40,8 +37,7 @@
     .button { 
         border-radius: 10px;
         background-color: var(--secondary-color);
-        margin-top: 2em;
-        margin-left: 6em;
+        margin: 2em auto;
         padding: auto;
         width: 45%;
         height: 3em;
@@ -64,6 +60,7 @@
 
     .registration_link {
         margin-top: 1em;
+        margin-bottom: 1em;
         text-align: center;
         text-decoration: none;
         color: black;

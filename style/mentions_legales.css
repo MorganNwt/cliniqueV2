@@ -2,6 +2,10 @@ li{
     margin-top: 1em;
 }
 
+h3{
+    margin-left: 1em;
+}
+
 @media screen and (max-device-width: 844px){
 
     .background_img{

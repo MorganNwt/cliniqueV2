@@ -408,7 +408,8 @@
         width: 100%;
         height: auto;
         left: 50.5%;
-        text-align: center; 
+        text-align: center;
+        padding: 10px;
 
         /* Déplacer l'élément vers la gauche de la moitié de sa propre largueur 
         ( pour être au milieu du conteneur )  */

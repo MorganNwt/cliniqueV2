@@ -1,14 +1,14 @@
                  Commande utiles:
                  
-git init // pour créeer le git( en local sur le pc )
-git remote remove origin // + nom du dossier pour effacer le dépot
-----------------------------------------------------------------------
-           les 3 lignes pour liée le git au github:
-git remote add origin https://github.com/MorganNwt/TeamWork.git
-git pull origin main // pour transférer le dépôt de github a git
-git push -u origin main // 1er push sur github
+           les lignes pour liée le git au github:
 
-git branch -M main // Pour renommer la branch master
+git init // initailiser le dépôt en local
+git add README.md
+git commit -m "first commit"
+git branch -M main // pour renomer la branche master
+git remote add origin https://github.com/MorganNwt/cliniqueV2.git
+git push -u origin main
+
 ---------------------------------------------------------
 
 git add . // pour ajouter au commit
