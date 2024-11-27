@@ -2,6 +2,10 @@
    session_start();
    require_once 'db_pdo.php';
    
+   if (!isset($_SESSION['csrf_token'])) {
+        $_SESSION['csrf_token'] = bin2hex(random_bytes(32)); // Generate a secure random token
+    }   
+
    // Check if user is logged in
    if (!isset($_SESSION['userId'])) {
        header('Location: ../view/connexion.php');
@@ -10,6 +14,10 @@
    
    // Vquery method verification
    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        if (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
+            // If the CSRF token is missing or invalid, reject the request
+            die('Invalid CSRF token. Request rejected.');
+        }
        // Filter entries
        $_POST = filter_input_array(INPUT_POST, [
            'rating' => FILTER_SANITIZE_FULL_SPECIAL_CHARS,
@@ -51,9 +59,8 @@
            $stmt_message->bindParam(':users_id', $_SESSION['userId']);
            
            if ($stmt_message->execute()) {
-               echo "Message envoyé avec succès.";
            } else {
-               echo "Erreur lors de l'envoi du message.";
+               exit();
            }
        }
    

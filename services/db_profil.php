@@ -2,6 +2,10 @@
     session_start();
     require_once 'db_pdo.php';
 
+    if (!isset($_SESSION['csrf_token'])) {
+        $_SESSION['csrf_token'] = bin2hex(random_bytes(32)); 
+    }
+
     // Check if user is logged in
     if (!isset($_SESSION['userId'])) {
         header('Location: ../view/connexion.php');
@@ -19,6 +23,12 @@
 
     // Check if the form has been submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+        if (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
+            // If the CSRF token is missing or invalid, reject the request
+            die('Invalid CSRF token. Request rejected.');
+        }
+        
         // Filter form data
         $_POST = filter_input_array(INPUT_POST, [
             'nom' => FILTER_SANITIZE_FULL_SPECIAL_CHARS, 

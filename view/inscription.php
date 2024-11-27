@@ -36,6 +36,8 @@
         <h1>Inscription</h1>
 
         <form action="#" method="POST" class="container_1">
+            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+
             <label for="pseudo">Pseudo</label>
             <input type="text" name="pseudo" id="pseudo" placeholder=" MiaouDu26" class="input">
 

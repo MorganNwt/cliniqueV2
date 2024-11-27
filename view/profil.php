@@ -40,6 +40,8 @@
         ?>
 
         <form action="#" method="POST" class="container_1">
+            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+            
             <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" value="<?php echo $profil['nom'] ?? ''; ?>" class="input" required>
 
@@ -67,6 +69,7 @@
 
         <?php if ($profil): ?>
             <form method="POST" action="../services/db_delete_account.php" class="delete_form">
+                <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
                 <input type="hidden" name="action" value="delete">
                 <input type="submit" value="Supprimer mon profil et mon compte" class="button_2" onclick="return confirm('Êtes-vous sûr de vouloir supprimer votre profil et votre compte ?');">
             </form>

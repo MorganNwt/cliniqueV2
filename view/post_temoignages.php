@@ -34,6 +34,8 @@
         <h1><?php echo isset($messageId) ? 'Modifier mon avis' : 'Poster mon avis'; ?></h1>
 
         <form action="#" method="POST" class="container_1">
+            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+            
             <?php if (isset($messageId)): ?>
                 <input type="hidden" name="message_id" value="<?php echo htmlspecialchars_decode($messageId); ?>">
             <?php endif; ?>
