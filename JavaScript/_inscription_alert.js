@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("returnButton").addEventListener("click", function() {
     
         // Redirect to form
-        window.location.href = "inscription.php"; 
+        window.location.href = "/view/inscription.php"; 
     });
 });

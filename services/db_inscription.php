@@ -23,7 +23,7 @@
             // Password hash
             $hachage_password = password_hash($passwd, PASSWORD_BCRYPT);
         } else {
-            echo ' <link rel="stylesheet" href="../style/inscription.css"><script src="../javascript/_inscription_alert.js"></script>';
+            header('Location: inscription.php?error=password_invalid');
             exit(); // Stop script execution
         }
     
@@ -82,12 +82,10 @@
     
             // Set session to stay logged in
             $_SESSION['userId'] = $user_id;
-
-            echo '<p>L\'inscription a bien été effectuée !</p>';
+    
             header('Location: ../index.php');
         } catch (Exception $e) {
             // Cancel transaction if error occurs
             $pdo->rollBack();
-            echo '<p>Échec de l\'inscription : ' . $e->getMessage() . '</p>';
         }
     }

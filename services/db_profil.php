@@ -4,7 +4,6 @@
 
     // Check if user is logged in
     if (!isset($_SESSION['userId'])) {
-        echo "Vous devez être connecté pour accéder à cette page.";
         header('Location: ../view/connexion.php');
         exit;
     }

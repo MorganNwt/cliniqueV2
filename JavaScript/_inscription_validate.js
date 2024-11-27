@@ -1,7 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const passwordInput = document.getElementById('passwd');
-    const confirmPasswordInput = document.getElementById('confirm_passwd');
-    
+
     // Select each password criteria
     const lengthCriteria = document.getElementById('length');
     const numberCriteria = document.getElementById('number');
