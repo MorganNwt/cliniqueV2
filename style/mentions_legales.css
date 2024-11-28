@@ -21,6 +21,8 @@ h3{
     .container_1 { 
         background: var(--quaternary-color);
         border: 5px solid var(--secondary-color); 
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
         border-radius: 10px;
         margin-top: 2em;
         margin-left: auto;
@@ -33,6 +35,8 @@ h3{
     .container_2 { 
         background: var(--quaternary-color);
         border: 5px solid var(--tertiary-color); 
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
         border-radius: 10px;
         margin-top: 2em;
         margin-left: auto;
@@ -49,18 +53,22 @@ h3{
     .container_1 { 
         background: var(--quaternary-color);
         border: 5px solid var(--secondary-color); 
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
         border-radius: 10px;
         margin-top: 2em;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 45%;
         height: auto;
         padding: 0.5em;
     }
 
     .container_2 { 
         background: var(--quaternary-color);
-        border: 5px solid var(--tertiary-color); 
+        border: 5px solid var(--tertiary-color);
+        word-wrap: break-word;
+        overflow-wrap: break-word;  
         border-radius: 10px;
         margin-top: 2em;
         margin-left: auto;
@@ -68,7 +76,7 @@ h3{
         padding-top:0.3em;
         padding-left: 0.5em;
         padding-right: 0.5em;
-        width: 90%;
+        width: 45%;
         height: auto;
     }
 
@@ -84,7 +92,7 @@ h3{
         margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 40%;
         height: auto;
         padding: 4em;
     }
@@ -96,7 +104,7 @@ h3{
         margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 40%;
         height: auto;
         padding: 4em;
     }

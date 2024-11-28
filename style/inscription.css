@@ -46,10 +46,9 @@
         padding: auto;
         width: 45%;
         height: 3em;
+        color: #111212;
         border: black 1px solid;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction: column;
     }
 
     .button:hover{
@@ -125,10 +124,9 @@
         padding: auto;
         width: 35%;
         height: 3em;
+        color: #111212;
         border: black 1px solid;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction: column;
     }
 
     .button:hover{
@@ -167,8 +165,6 @@
         border-bottom: 2px solid #f5c6cb;
         z-index: 1000;
     } 
-
-
 
 }
 
@@ -211,8 +207,6 @@
         height: 3em;
         border: black 1px solid;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction: column;
     }
 
     .button:hover{

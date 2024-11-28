@@ -53,7 +53,6 @@
                 <li id="lowercase" class="red">dont 1 minuscule</li>
                 <li id="special" class="red">dont 1 caractère spécial parmi : ?!*$%§@#+</li>
             </ul>
-                
             <label for="confirm_passwd">Confirmer le mot de passe</label>
             <input type="password" name="confirm_passwd" id="confirm_passwd" placeholder="Confirmez votre mot de passe" class="input">
             <ul class="list">

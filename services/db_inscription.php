@@ -4,7 +4,7 @@
 
     // Generate a CSRF token if not already done
     if (empty($_SESSION['csrf_token'])) {
-        $_SESSION['csrf_token'] = bin2hex(random_bytes(32)); // Génère un token de 64 caractères
+        $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
     }
 
     // Check form submission in POST

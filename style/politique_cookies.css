@@ -4,6 +4,8 @@
     .container_1 { 
         background: var(--quaternary-color);
         border: 5px solid var(--secondary-color); 
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
         border-radius: 10px;
         margin-top: 2em;
         margin-left: auto;
@@ -21,11 +23,13 @@
     .container_1 { 
         background: var(--quaternary-color);
         border: 8px solid var(--secondary-color); 
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
         border-radius: 10px;
         margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 45%;
         height: auto;
         padding: 4em;
     }
@@ -42,7 +46,7 @@
         margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 40%;
         height: auto;
         padding: 4em;
     }

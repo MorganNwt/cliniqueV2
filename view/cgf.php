@@ -27,7 +27,7 @@
     </header>
 
     <main>
-        <h2>CONDITIONS GENERALES DE FONCTIONNEMENT</h2>
+        <h1>CONDITIONS GENERALES DE FONCTIONNEMENT</h1>
 
         <section class="container_1">
             <h2>
