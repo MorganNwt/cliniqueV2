@@ -27,7 +27,7 @@
     </header>
 
     <main>
-        <h1>POLITIQUE DE COOKIES</h1>
+        <h1>Politique de cookies</h1>
 
         <section class="container_1">
             <p>
@@ -47,8 +47,9 @@
                 Pour plus d'informations sur la manière dont nous utilisons, stockons et sécurisons 
                 vos données personnelles, consultez notre Politique de confidentialité.
             </p>
-                 Nous ne stockons pas d'informations personnelles sensibles, telles que des adresses postales,
-                  des mots de passe de compte, etc., dans les cookies que nous utilisons.
+            <p>
+                Nous ne stockons pas d'informations personnelles sensibles, telles que des adresses postales,
+                des mots de passe de compte, etc., dans les cookies que nous utilisons.
             </p>
             <h2>Interprétation et Définitions</h2>
             <h3>Interprétation</h3>
@@ -64,7 +65,7 @@
             <ul> 
                 <li>
                     Société (désignée sous les termes "la Société", "Nous", "Notre" dans cette Politique
-                        relative aux cookies) fait référence à Sandrine GUERY.
+                    relative aux cookies) fait référence à Sandrine GUERY.
                 </li>
                 <li>
                     Cookies désigne de petits fichiers placés sur votre ordinateur, appareil mobile 

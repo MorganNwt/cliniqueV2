@@ -27,11 +27,11 @@
     </header>
 
     <main>
-        <h1>CONDITIONS GENERALES DE FONCTIONNEMENT</h1>
+        <h1>Condition générales de fonctionnement</h1>
 
         <section class="container_1">
             <h2>
-                CONDITIONS GENERALES DE FONCTIONNEMENT DE « CLINIQUE VETERINAIRE « LES CEDRES » 
+                Conditions générales de fonctionnement de : CLINIQUE LES CEDRES
                 32 RUE PIERRE LATECOERE 26000 VALENCE
              </h2>
             <p>
@@ -99,7 +99,7 @@
             <p>
                 Lors des leurs  absences, les Docteurs Vétérinaires pourront parfois être remplacés  par 
                 un vétérinaire diplômé, autorisé à exercer seul la médecine et la chirurgie vétérinaire en 
-                France et inscrit au tableau de l’Ordre. »
+                France et inscrit au tableau de l’Ordre.
             </p>
             <ul>Personnel non vétérinaire : 
                 <li>Ophélie Fripier-Sarkissian  ASV </li>

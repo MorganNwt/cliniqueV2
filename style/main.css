@@ -54,6 +54,10 @@ footer{
         align-items: center;
         justify-content: space-between;
     }
+
+    .nav_flex_desktop{
+        display: none;
+    }
     
     .logo{
         height: 3em;
@@ -69,7 +73,7 @@ footer{
         margin: 0.2em;
         padding: 0.2em;
         word-wrap: break-word; /* Assure que les mots longs se cassent correctement */
-        width: 10em;
+        width: 9em;
         font-size: 18px;
         font-weight: bold;
         text-align: center;
@@ -143,6 +147,10 @@ footer{
         justify-content: space-between;
         height: 12em;
     }
+
+    .nav_flex_desktop{
+        display: none;
+    }
     
     .logo{
         height: 90px;
@@ -158,7 +166,7 @@ footer{
         margin: 0.2em;
         padding: 0.2em;
         word-wrap: break-word; /* Assure que les mots longs se cassent correctement */
-        width: 10em;
+        width: 9em;
         font-size: 48px;
         font-weight: bold;
         text-align: center;
@@ -217,6 +225,29 @@ footer{
         justify-content: space-between;
         height: 12em;
     }
+
+    .nav_flex_desktop{
+        display: flex;
+        flex-direction: row;
+        margin:  0.5em;
+        align-items: center;
+        justify-content: center;
+     
+        a{
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 0 1em;
+            color: #111212;
+        }
+
+        a:hover{
+            color: #FD3F92;
+        }
+
+        ul{
+            display: none;
+        }
+    }
     
     .logo{
         height: 95px;
@@ -232,7 +263,7 @@ footer{
         margin: 0.2em;
         padding: 0.2em;
         word-wrap: break-word; /* Assure que les mots longs se cassent correctement */
-        width: 10em;
+        width: 9em;
         font-size: 48px;
         font-weight: bold;
         text-align: center;

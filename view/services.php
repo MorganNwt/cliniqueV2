@@ -239,7 +239,7 @@
                 de l’âge, de la race, du mode de vie, de l’entourage de votre boule de poils.
             </p>
             <p>
-                Nos étudescomprennent des cours d’alimentation, nous savons interpréter les étiquettes des
+                Nos études comprennent des cours d’alimentation, nous savons interpréter les étiquettes des
                 sacs d’alimentation et leurs pièges, alors n’hésitez pas à demander conseils.
             </p>
         </section>

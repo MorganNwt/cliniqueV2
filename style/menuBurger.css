@@ -136,66 +136,7 @@
 /* Specific style for desktop */
 @media screen and (min-width: 1920px) {
    
-    /* SideNav */
     .sideNav{
-        height: auto;
-        width: 15%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: -80em;
-        background-color: #ffffff;
-        border: 8px solid var(--secondary-color);
-        padding-top: 60px;
-        transition: right 1s ease;
+        display: none;
     }
-
-    /* sideNav menu links */
-    .sideNav a{
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        justify-content: center;
-        align-items: center;
-        font-size: 2em;
-        color: black;
-        display: block;
-        transition: 0.3s;
-    }
-
-    .sideNav a:hover{
-        color: #FD3F92;
-    }
-
-    .sideNav ul{
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    /* active class */
-    .sideNav.active{
-        right: 0;
-    }
-
-    /* close btn */
-    .sideNav .close{
-        position: absolute;
-        top: 0;
-        right: 0.5em;
-        font-size: 50px;
-    }
-
-    /* Icône burger */
-    .burger_icon span{
-        display: block;
-        width: 48px;
-        height: 8px;
-        background-color: black;
-        margin: 6px 3em;
-    }
-
-    .burger_icon:hover{
-        opacity: 50%;
-    }
-
 }

@@ -63,7 +63,7 @@
                     $roles = $stmt_role_check->fetchAll(PDO::FETCH_COLUMN);
 
                     // Store role in session
-                    $_SESSION['isAdmin'] = in_array('ROLE_ADMIN', $roles);
+                    $_SESSION['isAdmin'] = in_array('ROLE_ADMIN', haystack: $roles);
 
                     header('Location: ../index.php');
                     exit();

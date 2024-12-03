@@ -28,7 +28,7 @@
 
     <main>
 
-        <h1>MENTIONS LEGALES</h1>
+        <h1>Conditions générales</h1>
         <p>
             Les conditions générales ont été mises à jour pour la dernière fois le 21/10/2024.
         </p>

@@ -5,6 +5,7 @@
 ?>
 
 
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
@@ -52,7 +53,7 @@
                 <p>Tél: 04 75 55 74 19</p> 
             </div>
             <div class="container_flex_2">
-                <h2>Nos horaires d'ouvertures</h2>
+                <h2>Nos horaires d'ouverture</h2>
                 <ul>
                     <li>Du lundi au Vendredi :
                         <ul>
@@ -87,7 +88,7 @@
 
         <section class="container_3">
             <div class="carousel">
-                <div class="arrow left-arrow" onclick="previousMember()" aria-label="Membre précédent">←</div>
+                <div class="arrow left-arrow" onclick="previousMember()" aria-label="Membre précédent"><</div>
                 <div class="carousel_content" id="carousel_content">
                     <!-- les membres de l'équipe -->    
                     <?php foreach ($members as $member): ?>
@@ -110,7 +111,7 @@
                         </div>
                     <?php endforeach; ?>
                 </div>
-                <div class="arrow right-arrow" onclick="nextMember()" aria-label="Membre suivant">→</div>
+                <div class="arrow right-arrow" onclick="nextMember()" aria-label="Membre suivant">></div>
             </div>
         </section>
         

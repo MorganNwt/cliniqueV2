@@ -66,14 +66,13 @@
             <input type="hidden" name="action" value="<?php echo $profil ? 'update' : 'create'; ?>">
             <input type="submit" value="<?php echo $profil ? 'Modifier' : 'Créer'; ?>" class="button">
         </form>
-
-        <?php if ($profil): ?>
-            <form method="POST" action="../services/db_delete_account.php" class="delete_form">
-                <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-                <input type="hidden" name="action" value="delete">
-                <input type="submit" value="Supprimer mon profil et mon compte" class="button_2" onclick="return confirm('Êtes-vous sûr de vouloir supprimer votre profil et votre compte ?');">
-            </form>
-        <?php endif; ?>
+        
+        <form method="POST" action="../services/db_delete_account.php" class="delete_form">
+            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+            <input type="hidden" name="action" value="delete">
+            <input type="submit" value="Supprimer mon profil et mon compte" class="button_2" onclick="return confirm('Êtes-vous sûr de vouloir supprimer votre profil et votre compte ?');">
+        </form>
+     
 
         
     </main>
