@@ -35,7 +35,7 @@
     <main>
         <h1>Inscription</h1>
 
-        <<form action="#" method="POST" class="container_1">
+        <form action="#" method="POST" class="container_1">
             <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
 
             <label for="pseudo">Pseudo</label>
@@ -61,7 +61,7 @@
             </ul>
 
             <label for="cg_accepted"> 
-                <input type="checkbox" name="cg_accepted" id="cg_accepted" required> J'ai lu et j'accepte les <a href="/view/mentions_legales.php" target="a_blank">Conditions générales</a>
+                <input type="checkbox" name="cg_accepted" id="cg_accepted" required> J'ai lu et j'accepte les &nbsp;<a href="/view/mentions_legales.php" target="a_blank">Conditions générales</a>
             </label>
             <input type="submit" value="Créer !" class="button">
         </form>

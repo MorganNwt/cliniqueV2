@@ -19,7 +19,7 @@
     .container .pics_container .pics{
         height: 10em;
         width: 10em;
-        border: 0.4em solid #FD3F92;
+        border: 0.4em solid var(--secondary-color);
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         overflow: hidden;
         cursor: pointer;
@@ -63,11 +63,10 @@
         position: absolute;
         top:50%; left:50%;
         transform: translate(-50%, -50%);
-        border: 0.3em solid var(--secondary-color);
         border-radius: 5px;
-        height: 50%;
+        height: 80%;
         width: 80%;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 
@@ -93,7 +92,7 @@
     .container .pics_container .pics{
         height: 20em;
         width: 20em;
-        border: 0.4em solid #FD3F92;
+        border: 0.4em solid var(--secondary-color);
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         overflow: hidden;
         cursor: pointer;
@@ -136,11 +135,10 @@
         position: absolute;
         top:50%; left:50%;
         transform: translate(-50%, -50%);
-        border: 0.3em solid var(--secondary-color);
         border-radius: 5px;
-        height: 95%;
-        width: 75%;
-        object-fit: cover;
+        height: 85%;
+        width: 85%;
+        object-fit: contain;
     }
 
 }
@@ -169,7 +167,7 @@
     .container .pics_container .pics{
         height: 20em;
         width: 20em;
-        border: 0.4em solid #FD3F92;
+        border: 0.4em solid var(--secondary-color);
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         overflow: hidden;
         cursor: pointer;
@@ -212,11 +210,10 @@
         position: absolute;
         top:50%; left:50%;
         transform: translate(-50%, -50%);
-        border: 0.3em solid var(--secondary-color);
         border-radius: 5px;
-        height: 95%;
-        width: 75%;
-        object-fit: cover;
+        height: 85%;
+        width: 85%;
+        object-fit: contain;
     }
 
 }

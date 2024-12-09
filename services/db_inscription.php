@@ -2,10 +2,10 @@
     session_start();
     require_once 'db_pdo.php';
 
-    // Generate a CSRF token if not already done
-    if (empty($_SESSION['csrf_token'])) {
-        $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
-    }
+        // Generate a CSRF token if not already done
+        if (empty($_SESSION['csrf_token'])) {
+            $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+        }
 
     // Check form submission in POST
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -32,7 +32,7 @@
             }
 
             // Password validation
-            if (mb_strlen($passwd) >= 13 && preg_match('/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{13,}$/', $passwd)) {
+            if (mb_strlen($passwd) >= 13 && preg_match('/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*+]).{13,}$/', $passwd)) {
                 // Password hash
                 $hachage_password = password_hash($passwd, PASSWORD_BCRYPT);
             } else {

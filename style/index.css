@@ -548,11 +548,11 @@
     }
     
     .arrow.left-arrow {
-        left: 35%; 
+        left: 40%; 
     }
     
     .arrow.right-arrow {
-        right: 45%;
+        right: 40%;
     }
     
     .arrow:hover {
