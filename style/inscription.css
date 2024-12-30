@@ -75,7 +75,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 80%;
+        height: auto;
         background-color: #f8d7da;
         color: #721c24;
         padding: 3em;

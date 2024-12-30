@@ -70,8 +70,8 @@ footer{
     }
     
     .nav_h1{
-        margin: 0.2em;
-        padding: 0.2em;
+        margin: 0.5em;
+        padding: 0.6em;
         word-wrap: break-word; /* Assure que les mots longs se cassent correctement */
         width: 9em;
         font-size: 18px;

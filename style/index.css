@@ -183,7 +183,7 @@
 }
 
 /* Specific style for ipad */
-@media screen and (min-width: 845px) and (max-width: 1919px) {
+@media screen and (min-width: 845px) and (max-width: 1079px) {
     .background_img {
         background-image: url('/pics/lesCedres.png');
         background-size: cover;
@@ -370,7 +370,7 @@
 }
 
 /* Specific style for desktop */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1080px) and (max-width: 2549px) {
     
     .background_img {
         background-image: url('/pics/lesCedres.png');
@@ -480,6 +480,196 @@
         border-radius: 10px;
         border: 12px solid var(--tertiary-color);
         width: 65%;
+    }
+
+    .profil_content {
+        display: flex; 
+        align-items: center; 
+        margin-bottom: 1.5em; 
+    }
+
+    .profil {
+        flex: 0 0 auto; 
+        margin-right: 0.5em;
+    }
+    
+    .photos {
+        width:12em; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        margin-right: 1em;
+    }
+    
+    .content {
+        flex: 1; 
+    }
+
+    .text{
+        flex: 1;
+    }
+    
+    .carousel {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        overflow: hidden; /* Masquer les membres hors de la vue */
+        margin: 1em 1em 2em 1em;
+        position: relative; /* Nécessaire pour positionner les flèches */
+        height: 40em;
+       
+    }
+
+    .carousel_content {
+        display: flex;
+        width: 100%; /* Le carrousel occupe toute la largeur */
+        transition: transform 0.6s ease-in-out; /* Animation fluide du carrousel */
+    
+    }
+    
+    .profil_item {
+        min-width: 100%; /* Chaque élément occupe toute la largeur du carrousel */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .arrow {
+        cursor: pointer;
+        font-size: 2em;
+        padding: 12px;
+        color: white;
+        background-color: #111212; 
+        border-radius: 50%;
+        user-select: none;
+        position: absolute;
+        z-index: 1;  /* S'assurer que les flèches sont au-dessus des autres éléments */
+        transform: translate(0em, 9em);
+   
+    }
+    
+    .arrow.left-arrow {
+        left: 40%; 
+    }
+    
+    .arrow.right-arrow {
+        right: 40%;
+    }
+    
+    .arrow:hover {
+        background-color: #ccc;
+    }
+}
+
+@media screen and (min-width: 2550px) {
+
+    .background_img {
+        background-image: url('/pics/lesCedres.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 45em;
+        width: 100%;
+        margin-top: 1em;
+
+        /* Layout properties for centering text */
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
+    }
+    
+    .background_img p {
+        color: #111212;
+        font-size: 4em;
+        font-weight: bold;
+        text-align: center;
+        padding: 0.5em 1em;
+        
+        /* Box properties */
+        background: rgba(191, 187, 187, 0.6); 
+        backdrop-filter: blur(10px); 
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+        transform: translate(-0.5em, 0.6em);
+    }
+
+    .flash_message {
+        position: absolute;
+        top: 7em;
+        width: 100%;
+        height: auto;
+        left: 50.5%;
+        text-align: center;
+        padding: 10px;
+
+        /* Déplacer l'élément vers la gauche de la moitié de sa propre largueur 
+        ( pour être au milieu du conteneur )  */
+        transform: translateX(-50.5%);
+        background: linear-gradient(225deg, #ffc63f 0%, #fd3358 49%, #bc35d8 100%);
+        padding: 5px;
+        font-size: 38px;
+    }
+
+    .container_1 { 
+        background: var(--quaternary-color);
+        border: 12px solid var(--secondary-color); 
+        border-radius: 10px;
+        margin: 5em auto 0 auto;
+        padding: 2em 2em 8em 2em;
+        width: 40%;
+        height: auto;
+    }
+
+    .container_1_margin{
+        margin-top: 11px;
+    }
+
+   .container_flex_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .container_flex_1 ul {
+        list-style-type: none;
+    }
+
+    .container_flex_2 {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 0.5em;
+        margin-left: 1em;
+    }
+
+    .container_2 {
+        background: var(--quaternary-color);
+        border: 12px solid var(--tertiary-color);
+        margin-top: 5em;
+        height: 45em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container_3 { 
+        background: var(--quaternary-color);
+        border: 12px solid var(--secondary-color);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5em auto 0 auto;
+        padding: 2em;
+        width: 45%;
+        height: auto;
+    }
+
+    .container_4 {
+        margin: 5em auto 4em auto;    
+        border-radius: 10px;
+        border: 12px solid var(--tertiary-color);
+        width: 50%;
     }
 
     .profil_content {
