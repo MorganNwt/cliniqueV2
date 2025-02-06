@@ -4,8 +4,6 @@
     require_once 'services/db_update_members.php';
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
@@ -26,6 +24,7 @@
     
     <script src="/JavaScript/menuBurger.js" defer></script>
     <script src="/JavaScript/team_caroussel.js" defer></script>
+    <script src="/JavaScript/message_flash.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,7 +39,7 @@
                 <div class="flash_message">
                     <?php echo htmlspecialchars($flash_message); ?>
                     <!--Balise small pour réduire le texte et l'intégrer correctement dans le bandeau -->
-                    <small>. Le <?php echo htmlspecialchars(date('d/m/Y à H:i', strtotime($updated_at))); ?></small>
+                    <small> Le <?php echo htmlspecialchars(date('d/m/Y', strtotime($updated_at))); ?></small>
                 </div>
             <?php endif; ?>
             <p>04 75 55 74 19</p>

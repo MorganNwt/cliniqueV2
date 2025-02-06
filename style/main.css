@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #DBE0ED;
     --secondary-color: #FD3F92; 
@@ -10,7 +11,6 @@ header, body {
     font-family: "Handlee", cursive;
     background-color: var(--quaternary-color);
 }
-
 
 html, body {
     background-color: var(--primary-color);
@@ -106,7 +106,6 @@ footer{
         margin: 1em;
     }
 
-
     .footer_flex_2 a:hover{
         color: #FD3F92;
     }
@@ -116,7 +115,6 @@ footer{
         display: flex;
         flex-direction: row;
     }
-
 
      /* Disable tablet and desktop footer */
     .footer_tablet_desktop{
@@ -130,7 +128,7 @@ footer{
 }
 
 /* Specific style for ipad */
-@media screen and (min-width: 845px) and (max-width: 1919px) {
+@media screen and (min-width: 845px) and (max-width: 1079px){
    
     header{
         display: flex;
@@ -208,7 +206,7 @@ footer{
 }
 
 /* Specific style for desktop */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1080px) {
    
     header{
         display: flex;
