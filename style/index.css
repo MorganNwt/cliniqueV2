@@ -483,7 +483,7 @@ html, body {
         margin: 10em auto 10em auto;    
         border-radius: 10px;
         border: 10px solid var(--tertiary-color);
-        width: 60%;
+        width: 50%;
     }
 
     .profil_content {
