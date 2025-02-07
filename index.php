@@ -39,7 +39,7 @@
                 <div class="flash_message">
                     <?php echo htmlspecialchars($flash_message); ?>
                     <!--Balise small pour réduire le texte et l'intégrer correctement dans le bandeau -->
-                    <small> Le <?php echo htmlspecialchars(date('d/m/Y', strtotime($updated_at))); ?></small>
+                    <small> Le <?php echo htmlspecialchars(date('d/m.', strtotime($updated_at))); ?></small>
                 </div>
             <?php endif; ?>
             <p>04 75 55 74 19</p>
